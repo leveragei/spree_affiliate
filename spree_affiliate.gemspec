@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
 
   s.name        = 'spree_affiliate'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.authors     = ['Rails Dog']
   s.email       = 'gems@railsdog.com'
   s.homepage    = 'http://github.com/spree/spree_affiliate'
@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency('spree_core', '>= 1.3')
-  s.add_dependency('spree_store_credits', '>= 1.0.0')
+  s.add_runtime_dependency(%q<spree_core>, ["~> 2.0.0"])
+  s.add_dependency('spree_store_credits', '= 1.1.2')
 end
