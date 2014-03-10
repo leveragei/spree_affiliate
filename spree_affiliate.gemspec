@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency(%q<spree_core>, ["~> 2.0.0"])
-  s.add_dependency('spree_store_credits', '= 1.1.2')
+  s.add_dependency('spree_store_credits', '= 1.1.1')
 end
