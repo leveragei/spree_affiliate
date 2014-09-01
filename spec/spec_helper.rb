@@ -46,4 +46,5 @@ RSpec.configure do |config|
 
   config.fail_fast = ENV['FAIL_FAST'] || false
   config.order = "random"
+  config.include Rails.application.routes.url_helpers
 end

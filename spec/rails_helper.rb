@@ -34,4 +34,5 @@ require 'spree/testing_support/url_helpers'
 require 'spree_affiliate/factories'
 
 require "spec_helper"
+
 ActiveRecord::Migration.maintain_test_schema!
