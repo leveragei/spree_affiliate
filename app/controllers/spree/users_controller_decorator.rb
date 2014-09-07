@@ -3,7 +3,6 @@ Spree::UserRegistrationsController.class_eval do
 
   after_filter :check_affiliate, :only => :create
 
-  private
 
   def check_affiliate
     return if cookies[:ref_id].blank? || @user.invalid?
