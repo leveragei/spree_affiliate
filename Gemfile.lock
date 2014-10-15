@@ -69,7 +69,7 @@ GIT
 PATH
   remote: .
   specs:
-    spree_affiliate (2.3.1)
+    spree_affiliate (2.3.2)
       rails (~> 4.1.4)
       spree_core (~> 2.3.1)
       spree_store_credits (>= 1.0.2)
